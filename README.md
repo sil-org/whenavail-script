@@ -1,4 +1,4 @@
-# whenready # 
+# whenavail # 
 A script for monitoring a port on another host and then executing a command when ready.
 
 When using docker-compose all defined services are started simultaniously. However we 
@@ -8,5 +8,5 @@ and port and then run a command when it is ready.
 
 ## Usage ##
 ```
-whenready <remote_host> <remote_port> <timeout> command [arguments] ...
+whenavail <remote_host> <remote_port> <timeout> command [arguments] ...
 ```
