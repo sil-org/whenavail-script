@@ -16,7 +16,7 @@ function usage () {
 }
 
 # Check for arguments
-if [[ $# < 4 ]]; then
+if [[ $# -lt 4 ]]; then
   usage
   exit 41
 fi
