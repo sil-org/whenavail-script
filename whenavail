@@ -46,7 +46,7 @@ shift 1
 # then define the named variable with its binary path
 for cmd in "$@"; do
   if which $cmd > /dev/null; then
-    declare -g $name="$(which $cmd)"
+    declare $name="$(which $cmd)"
     return
   fi
 done
