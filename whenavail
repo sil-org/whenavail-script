@@ -7,7 +7,7 @@
 function usage () {
   echo "Usage: $0 <remote_host> <remote_port> <timeout> command [arguments] ..."
   echo ""
-  echo "  timeout is in seconds (0 for infinte timeout)"
+  echo "  timeout is in seconds (0 for infinite timeout)"
   echo ""
   echo "Exit Statuses:"
   echo "  41 - script error"
@@ -68,7 +68,7 @@ fi
 
 # Detection loop:
 while true; do
-  if $NC -v -z "$HOST" $PORT; then
+  if $NC "$HOST" $PORT; then
     break
   fi
 
