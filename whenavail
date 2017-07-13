@@ -68,7 +68,7 @@ fi
 
 # Detection loop:
 while true; do
-  if $NC "$HOST" $PORT; then
+  if $NC -v -z "$HOST" $PORT; then
     break
   fi
 
