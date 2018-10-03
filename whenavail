@@ -2,7 +2,7 @@
 # Wrapper script which tests if a connection can be made to a remote service
 #
 # Loops until the connection can be made, or the timeout is reached
-set -x
+#set -x
 
 function usage () {
   echo "Usage: $0 <remote_host> <remote_port> <timeout> command [arguments] ..."
@@ -73,8 +73,8 @@ else
   CHECK=true
 fi
 
-echo "NC =" $NC
-echo "OPT =" $OPT
+#echo "NC =" $NC
+#echo "OPT =" $OPT
 
 # Detection loop:
 while true; do
