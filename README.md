@@ -1,7 +1,7 @@
 # whenavail # 
 A script for monitoring a port on another host and then executing a command when ready.
 
-When using docker-compose, all defined services are started simultaneously. However we 
+When using docker compose, all defined services are started simultaneously. However we 
 often have situations where we need a database container started and online before we 
 can run database migrations or other scripts. Using ```whenavail``` we can watch host 
 and port and then run a command when it is ready.
