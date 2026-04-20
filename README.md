@@ -1,3 +1,7 @@
+# ARCHIVED
+
+This repository is archived. We have stopped using this in favor of Docker Compose [healthcheck](https://docs.docker.com/reference/compose-file/services/#healthcheck).
+
 # whenavail # 
 A script for monitoring a port on another host and then executing a command when ready.
 
